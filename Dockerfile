@@ -1,4 +1,4 @@
-FROM oracle/graalvm-ce:19.2.0
+FROM oracle/graalvm-ce:19.3.0.2
 
 RUN gu install native-image
 
